@@ -19,67 +19,67 @@ const About = () => {
               frontend and backend technologies, I strive to create seamless and
               efficient user experiences.
             </p>
-            <div className="space-y-4">
-              <div className="flex items-center">
-                <label htmlFor="htmlandcss" className="w-2/12 font-semibold">
+            <div className="space-y-6">
+              <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
+                <label htmlFor="htmlandcss" className="sm:w-2/12 font-semibold">
                   HTML & CSS
                 </label>
-                <div className="grow bg-gray-800 rounded-full h-2.5">
+                <div className="w-full sm:w-10/12 bg-gray-800 rounded-full h-2.5">
                   <div
                     className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
                     transform transition-transform duration-300 hover:scale-105 w-10/12"
                   ></div>
                 </div>
               </div>
-              <div className="flex items-center">
-                <label htmlFor="htmlandcss" className="w-2/12 font-semibold">
+              <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
+                <label htmlFor="javascript" className="sm:w-2/12 font-semibold">
                   JavaScript
                 </label>
-                <div className="grow bg-gray-800 rounded-full h-2.5">
+                <div className="w-full sm:w-10/12 bg-gray-800 rounded-full h-2.5">
                   <div
                     className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
                     transform transition-transform duration-300 hover:scale-105 w-11/12"
                   ></div>
                 </div>
               </div>
-              <div className="flex items-center">
-                <label htmlFor="htmlandcss" className="w-2/12 font-semibold">
+              <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
+                <label htmlFor="typescript" className="sm:w-2/12 font-semibold">
                   TypeScript
                 </label>
-                <div className="grow bg-gray-800 rounded-full h-2.5">
+                <div className="w-full sm:w-10/12 bg-gray-800 rounded-full h-2.5">
                   <div
                     className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
                     transform transition-transform duration-300 hover:scale-105 w-8/12"
                   ></div>
                 </div>
               </div>
-              <div className="flex items-center">
-                <label htmlFor="htmlandcss" className="w-2/12 font-semibold">
+              <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
+                <label htmlFor="react" className="sm:w-2/12 font-semibold">
                   React JS
                 </label>
-                <div className="grow bg-gray-800 rounded-full h-2.5">
+                <div className="w-full sm:w-10/12 bg-gray-800 rounded-full h-2.5">
                   <div
                     className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
                     transform transition-transform duration-300 hover:scale-105 w-11/12"
                   ></div>
                 </div>
               </div>
-              <div className="flex items-center">
-                <label htmlFor="htmlandcss" className="w-2/12 font-semibold">
+              <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
+                <label htmlFor="node" className="sm:w-2/12 font-semibold">
                   Node JS
                 </label>
-                <div className="grow bg-gray-800 rounded-full h-2.5">
+                <div className="w-full sm:w-10/12 bg-gray-800 rounded-full h-2.5">
                   <div
                     className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
                     transform transition-transform duration-300 hover:scale-105 w-10/12"
                   ></div>
                 </div>
               </div>
-              <div className="flex items-center">
-                <label htmlFor="htmlandcss" className="w-2/12 font-semibold">
+              <div className="flex flex-col sm:flex-row items-start sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
+                <label htmlFor="next" className="sm:w-2/12 font-semibold">
                   Next JS
                 </label>
-                <div className="grow bg-gray-800 rounded-full h-2.5">
+                <div className="w-full sm:w-10/12 bg-gray-800 rounded-full h-2.5">
                   <div
                     className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
                     transform transition-transform duration-300 hover:scale-105 w-9/12"

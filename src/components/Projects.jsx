@@ -1,5 +1,5 @@
 import React from "react";
-import TodoImage from "../assets/images/TodoPic.jpg";
+import Ems from "../assets/images/ems.png";
 import VideoTubeImage from "../assets/images/VideoTube.jpg";
 import blogImage from "../assets/images/BlogPic.jpg";
 
@@ -20,10 +20,11 @@ const projects = [
   },
   {
     id: 3,
-    name: "Todo - App",
+    name: "Employee Management",
     technologies: "React js, Context API, Tailwind",
-    image: TodoImage,
-    github: "https://github.com/BhaskarBhatkal/TodoList_ContextAPI",
+    image: Ems,
+    github:
+      "https://github.com/BhaskarBhatkal/Employee-Management-System-React.js",
   },
 ];
 

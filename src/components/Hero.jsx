@@ -23,7 +23,7 @@ function Hero() {
       </p>
       <div className="mt-8 space-x-4">
         <button className="bg-gradient-to-r from-green-400 to-blue-500 transform transition-transform  duration-300 hover:scale-105 px-4 py-2 rounded-full hover:text-[#0b254d] text-[#081725] font-bold">
-          <a href="#contact"> Contact With Me</a>
+          <a href="#contact"> Contact Me</a>
         </button>
         <button
           onClick={() => window.open(resume, "_blank")}

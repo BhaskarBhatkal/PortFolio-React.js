@@ -1,5 +1,11 @@
 import React from "react";
-import { FaEnvelope, FaMapMarkedAlt, FaPhone } from "react-icons/fa";
+import {
+  FaEnvelope,
+  FaMapMarkedAlt,
+  FaPhone,
+  FaGithub,
+  FaLinkedin,
+} from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -36,7 +42,7 @@ const Contact = () => {
             </div>
           </div>
           <div className="flex-1 w-full">
-            <form className="space-y-4">
+            {/* <form className="space-y-4">
               <div>
                 <label htmlFor="name" className="block mb-2">
                   Your Name
@@ -77,7 +83,30 @@ const Contact = () => {
               >
                 Send
               </button>
-            </form>
+            </form> */}
+
+            <div className="mt-4 mx-auto w-72">
+              <a
+                href="https://github.com/BhaskarBhatkal"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex justify-center items-center bg-gradient-to-r from-sky-200 to-cyan-900 transform transition-transform duration-300 hover:scale-105 py-2 rounded-2xl text-[17px]"
+              >
+                <FaGithub className="h-6 w-6 text-[#0d1f2d] mr-2" />
+                <span className="font-bold text-black">GitHub</span>
+              </a>
+            </div>
+            <div className="mt-8 mx-auto  w-72">
+              <a
+                href="https://www.linkedin.com/in/bhaskar-moger-b39381200/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex justify-center items-center bg-gradient-to-r from-sky-200 to-cyan-900 transform transition-transform duration-300 hover:scale-105 py-2 rounded-2xl text-[17px]"
+              >
+                <FaLinkedin className="h-6 w-6 text-[#0d1f2d] mr-2" />
+                <span className="font-bold text-black">LinkedIn</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>

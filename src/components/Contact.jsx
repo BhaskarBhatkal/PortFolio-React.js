@@ -26,7 +26,9 @@ const Contact = () => {
             <div className="mb-4 mt-8">
               <FaEnvelope className="inline-block text-green-400 mr-2"></FaEnvelope>
               <a
-                href="mailto:youremail@example.com"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=b.r.moger1234@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="hover:underline"
               >
                 b.r.moger1234@gmail.com
